@@ -1747,19 +1747,19 @@
   },
   {
     "name": "Minecraft 1.5.2 (Eaglercraft)",
-    "link": "/e/2/eag15/index.html",
+    "link": "https://eaglercraft.com/mc/1.5.2",
     "image": "/assets/media/icons/mc.webp",
     "categories": ["all", "2P", "emu", "local"]
   },
   {
     "name": "Minecraft 1.8 (Eaglercraft)",
-    "link": "/e/2/eag18/offline.html",
+    "link": "https://eaglercraft.com/mc/1.8.8",
     "image": "/assets/media/icons/mc.webp",
     "categories": ["all", "2P", "emu", "local"]
   },
   {
     "name": "Minecraft 1.8 (Eagler WASM)",
-    "link": "/e/2/eag18/wasm.html",
+    "link": "https://eaglercraft.com/mc/1.8.8-wasm/",
     "image": "/assets/media/icons/mc.webp",
     "categories": ["all", "2P", "emu", "local"]
   },
