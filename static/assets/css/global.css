@@ -18,7 +18,7 @@
    --nav-image: url("/./assets/media/favicon/main.png"); /* Nav Logo */
    /* Text Variables */
    --text-primary: #fff; /* Primary Text Color */
-   --text-dark: #555; /* Dark Text Color for Error Page, Scrollbar, and Particles */
+   --text-dark: #fff; /* Dark Text Color for Error Page, Scrollbar, and Particles */
    --text-placeholder: #aaa; /* Placeholder Text Color */
    /* Other Variables */
    --save-button: #4caf50; /* Save Button, Typically Green */
