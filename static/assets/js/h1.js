@@ -4,11 +4,11 @@ let inFrame;
 try {
   inFrame = window !== top;
 } catch (e) {
-  inFrame = false;
+  inFrame = true;
 }
 if (!localStorage.getItem("ab")) localStorage.setItem("ab", true);
 if (!inFrame && !navigator.userAgent.includes("Firefox") && localStorage.getItem("ab") === "true") {
-  const popup = ("about:blank", "_blank");
+  const popup = open("about:blank", "_blank");
   setTimeout(() => {
     if (!popup || popup.closed) {
       alert("Welcome to Holy Bass (use pop-ups for cloak)");
