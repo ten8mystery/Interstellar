@@ -4,14 +4,14 @@ let inFrame;
 try {
   inFrame = window !== top;
 } catch (e) {
-  inFrame = true;
+  inFrame = false;
 }
 if (!localStorage.getItem("ab")) localStorage.setItem("ab", true);
 if (!inFrame && !navigator.userAgent.includes("Firefox") && localStorage.getItem("ab") === "true") {
-  const popup = open("about:blank", "_blank");
+  const popup = ("about:blank", "_blank");
   setTimeout(() => {
     if (!popup || popup.closed) {
-      alert("Please allow popups for this site. Doing so will allow us to open the site in a about:blank tab and preventing this site from showing up in your history. You can turn this off in the site settings.");
+      alert("Welcome to Holy Bass (use pop-ups for cloak)");
     } else {
       const doc = popup.document;
       const iframe = doc.createElement("iframe");
